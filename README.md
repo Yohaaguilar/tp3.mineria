@@ -10,4 +10,6 @@ drive.mount('/content/drive'): Este comando monta tu Google Drive en el director
 
 nfl_data = pd.read_csv("/content/drive/MyDrive/MD/dataMining2024-main/TP3/Fantantes.csv") : : Aquí estás leyendo un archivo CSV llamado "Fantantes.csv" que está almacenado en tu Google Drive. El archivo se encuentra en la ruta especificada /content/drive/MyDrive/MD/dataMining2024-main/TP3/Fantantes.csv. pd.read_csv() es una función de Pandas que lee un archivo CSV y lo carga en un DataFrame de Pandas, que es una estructura de datos tabular similar a una hoja de cálculo.
 
+ estos comandos son los primeros pasos típicos que se realizan al comenzar un proyecto de minería de datos en Python utilizando Pandas y NumPy, y también muestran cómo acceder a archivos almacenados en Google Drive desde Google Colab
+
 np.random.seed(0):  Esto establece la semilla para el generador de números aleatorios de NumPy en 0. Establecer la semilla garantiza que obtengas los mismos resultados aleatorios cada vez que ejecutes el código. Esto es útil para reproducibilidad, especialmente cuando estás realizando experimentos o análisis que involucran aleatoriedad.
